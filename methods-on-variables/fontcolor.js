@@ -1,7 +1,7 @@
-var example = "Test";
+let example = "Test";
 
-var result = example.fontcolor();
+let result = example.fontcolor();
 
-var result = example.fontcolor("blue");
+let result = example.fontcolor("blue");
 
-var result = example.fontcolor("yellow");
+let result = example.fontcolor("yellow");

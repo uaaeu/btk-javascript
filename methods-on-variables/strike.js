@@ -1,3 +1,3 @@
-var example = "Test";
+let example = "Test";
 
-var result = example.strike();
+let result = example.strike();

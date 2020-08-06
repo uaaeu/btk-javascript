@@ -1,3 +1,3 @@
-var example = "Google";
+let example = "Google";
 
-var result = example.anchor("google");
+let result = example.anchor("google");

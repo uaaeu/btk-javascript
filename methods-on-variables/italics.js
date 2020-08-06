@@ -1,3 +1,3 @@
-var example = "Javascript";
+let example = "Javascript";
 
-var result = example.italics();
+let result = example.italics();

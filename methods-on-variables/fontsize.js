@@ -1,9 +1,9 @@
-var example = "Test";
+let example = "Test";
 
-var result = example.fontsize();
+let result = example.fontsize();
 
-var result1 = example.fontsize(1);
+let result1 = example.fontsize(1);
 
-var result2 = example.fontsize(2);
+let result2 = example.fontsize(2);
 
-var result3 = example.fontsize(3);
+let result3 = example.fontsize(3);

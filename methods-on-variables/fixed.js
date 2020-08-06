@@ -1,3 +1,3 @@
-var example = "Javascript";
+let example = "Javascript";
 
-var fixedExample = example.fixed();
+let fixedExample = example.fixed();
