@@ -1,3 +1,3 @@
-let example	=	"Google";
+let example = "Google";
 
-let result	=	example.link("http://www.google.com");
+let result = example.link("http://www.google.com");
