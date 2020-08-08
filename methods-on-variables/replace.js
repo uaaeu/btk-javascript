@@ -1,4 +1,4 @@
-var value	=	"Php PHP php Php PHP php Php PHP php";
+let value = "Php PHP php Php PHP php Php PHP php";
 
-var result	=	value.replace(/PHP/gi, "Javascript");
-var result	=	value.replace("PHP", "Javascript");
+let result = value.replace(/PHP/gi, "Javascript");
+let result = value.replace("PHP", "Javascript");
