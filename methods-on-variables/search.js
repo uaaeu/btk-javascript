@@ -2,4 +2,4 @@ let value	=	"JavaScript is a scripting or programming language that allows you t
 
 let result	=	value.search("script");
 let result	=	value.search(/SCRIPT/i);
-let result	=	value.search(//scRipT/i));
+let result	=	value.search(/scRipT/i);
