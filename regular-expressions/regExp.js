@@ -34,3 +34,7 @@ control = regex.multiline //false
 control = regexG.multiline //false
 control = regexGi.multiline //false
 control = regexGiM.multiline //true
+
+//.test() method
+let resultM = regex.match(txt); //resultM = true
+let resultM = /PHP/.match(txt); //resultM = false
