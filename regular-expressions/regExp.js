@@ -11,3 +11,7 @@ let resulA = txt.match(regexA); //resultA = js
 //g (global)
 let regexG = /js/g; //will match every js in text (js js)
 let regexGA = new RegExp('js','g')
+
+//global method
+let control = regex.global //false
+let control = regexG.global //true
