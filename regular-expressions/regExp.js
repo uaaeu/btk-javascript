@@ -37,4 +37,8 @@ control = regexGiM.multiline //true
 
 //.test() method
 let resultM = regex.match(txt); //resultM = true
-let resultM = /PHP/.match(txt); //resultM = false
+resultM = /PHP/.match(txt); //resultM = false
+
+//input method
+let resultI = regex.match(txt); //resultM = true
+resultI = /PHP/.match(txt); //resultM = false
