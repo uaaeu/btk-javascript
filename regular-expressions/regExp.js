@@ -1,4 +1,4 @@
-let txt = 'hello world i am js. probably the best js';
+let txt = 'hello world i am js. probably the best js. JS THE BEST';
 
 //creating a regex
 let regex = /js/;
@@ -15,3 +15,7 @@ let regexGA = new RegExp('js','g')
 //global method
 let control = regex.global //false
 let control = regexG.global //true
+
+//i (ignore case)
+let regexGi = /js/gi; //will match every js, jS, Js or JS in text (js js JS)
+let regexGAi = new RegExp('js','gi')
