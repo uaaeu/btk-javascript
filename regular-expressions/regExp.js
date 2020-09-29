@@ -14,17 +14,23 @@ let regexAG = new RegExp('js','g')
 
 //global method
 let control = regex.global //false
-let control = regexG.global //true
+control = regexG.global //true
 
 //i (ignore case)
 let regexGi = /js/gi; //will match every js, jS, Js or JS in text (single line)(js js JS)
 let regexAGi = new RegExp('js','gi')
 
 //ignoreCase method
-let control = regex.ignoreCase //false
-let control = regexG.ignoreCase //false
-let control = regexGi.ignoreCase //true
+control = regex.ignoreCase //false
+control = regexG.ignoreCase //false
+control = regexGi.ignoreCase //true
 
 //m (multi line)
 let regexGiM = /js/gim; //will match every js, jS, Js or JS in text (multi line)(js js JS)
 let regexAGiM = new RegExp('js','gim')
+
+//multiline method
+control = regex.multiline //false
+control = regexG.multiline //false
+control = regexGi.multiline //false
+control = regexGiM.multiline //true
