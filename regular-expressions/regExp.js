@@ -19,3 +19,8 @@ let control = regexG.global //true
 //i (ignore case)
 let regexGi = /js/gi; //will match every js, jS, Js or JS in text (js js JS)
 let regexGAi = new RegExp('js','gi')
+
+//ignoreCase method
+let control = regex.ignoreCase //false
+let control = regexG.ignoreCase //false
+let control = regexGi.ignoreCase //true
