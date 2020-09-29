@@ -4,3 +4,6 @@ let txt = 'hello world i am js.';
 let regex = /js/;
 let regexA = new RegExp('js');
 
+//.match() method
+let result = txt.match(regex);
+let resulA = txt.match(regexA);
